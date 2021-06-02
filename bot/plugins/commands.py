@@ -12,7 +12,7 @@ db = Database()
 
 @Client.on_message(filters.command(["start"]) & filters.private, group=1)
 async def start(bot, update):
-    update_channel = "@DraXMovies_draZ"
+    update_channel = "@StarMovies_Here"
     if update_channel:
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
@@ -24,7 +24,7 @@ async def start(bot, update):
             await update.reply_text(
                 text="Join Our Movie Channel 🤭     ചാനലിൽ നിങ്ങൾ ഉണ്ട് എങ്കിൽ മാത്രമേ ഈ ബോട്ട് വഴി നിങ്ങൾക്ക് സിനിമ കിട്ടുകയുളളൂ.അതുകൊണ്ട് ചാനെലിൽ ജോയിൻ ആവുക...😁😁",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" ⭕️ 𝗖𝗹𝗶𝗰𝗸 𝘁𝗼𝗼 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ⭕️ ", url=f"https://t.me/joinchat/TV_lOjIzLBGmSMGi")]
+                    [ InlineKeyboardButton(text=" ⭕️ 𝗖𝗹𝗶𝗰𝗸 𝘁𝗼𝗼 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ⭕️ ", url=f"https://t.me/StarMovies_Here")]
               ])
             )
             return
@@ -43,9 +43,9 @@ async def start(bot, update):
             return
         
         caption =("<code>" + file_name + """</code>\n꧁༺ --------------------------- ༻꧂
-🕹 𝗚𝗥𝗢𝗨𝗣 - @DraXmovieZ
-🕹 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 - https://t.me/joinchat/TV_lOjIzLBGmSMGi
-📂 𝗗𝗿𝗮𝘅 𝗔𝗿𝗰𝗵𝗶𝘃𝗲 - @DX_links""")
+🕹 𝗚𝗥𝗢𝗨𝗣 - @Movies_Here_Now
+🕹 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 - @StarMovies_Here
+📂 𝗔𝗿𝗰𝗵𝗶𝘃𝗲 - @DX_links""")
         
         if file_type == "document":
         
@@ -60,7 +60,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹  ⭕️', url="https://t.me/joinchat/89wsRw1KP-tjNDE1"
+                                    '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹  ⭕️', url="https://t.me/StarMovies_Here"
                                 )
                         ]
                     ]
@@ -79,7 +79,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ⭕️', url="https://t.me/joinchat/89wsRw1KP-tjNDE1"
+                                    '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ⭕️', url="https://t.me/StarMovies_Here"
                                 )
                         ]
                     ]
@@ -98,7 +98,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ⭕️', url="https://t.me/joinchat/89wsRw1KP-tjNDE1"
+                                    '⭕️ 𝗝𝗼𝗶𝗻 𝗼𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ⭕️', url="https://t.me/StarMovies_Here"
                                 )
                         ]
                     ]
@@ -111,8 +111,9 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('♻️ 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/DraxmovieZ'),
-        InlineKeyboardButton('🎞 𝗰𝗵𝗮𝗻𝗻𝗲𝗹', url ='https://t.me/joinchat/TV_lOjIzLBGmSMGi')
+        InlineKeyboardButton('♻️ 𝗚𝗿𝗼𝘂𝗽-1', url='https://t.me/DraxmovieZ'),
+        InlineKeyboardButton('♻️ 𝗚𝗿𝗼𝘂𝗽-2', url='https://t.me/Movies_Here_Now'),
+        InlineKeyboardButton('🎞 𝗰𝗵𝗮𝗻𝗻𝗲𝗹', url ='https://t.me/StarMovies_Here')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
