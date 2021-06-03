@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         results.append(
                 [
-                    InlineKeyboardButton("⚜𝗗𝗿𝗮𝗫 𝗙𝗶𝗹𝗲𝘀⚜", url="https://t.me/joinchat/89wsRw1KP-tjNDE1"),InlineKeyboardButton("⚜𝗗𝗿𝗮𝗫 𝗦𝗲𝗿𝗶𝗲𝘀⚜", url="https://t.me/joinchat/gMBp8SxwNohjNjNl")
+                    InlineKeyboardButton("⚜𝗼𝘂𝗿 𝗺𝗮𝗶𝗻 𝗴𝗿𝗼𝘂𝗽⚜", url="https://t.me/DraXmovieZ")
                 ]
             )
         for filter in filters: # iterating through each files
@@ -170,7 +170,7 @@ async def auto_filter(bot, update):
         result[0].append([
             InlineKeyboardButton(f"🔰 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
         ])
-        result[0].append([ InlineKeyboardButton(f"💢 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 💢", url="https://t.me/joinchat/TV_lOjIzLBGmSMGi") ])
+        result[0].append([ InlineKeyboardButton(f"💢 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 💢", url="https://t.me/StarMovies_Here") ])
         # if show_invite is True Append invite link buttons
         if show_invite:
             
@@ -218,7 +218,7 @@ async def auto_filter(bot, update):
             await bot.send_photo(
                 chat_id = update.chat.id,
                 photo="https://telegra.ph/DraX-Movies-05-14",
-                caption=f"😉 you got {(len_results)} Results For Your Query👉 <code>{query}</code> \n\n<b><a href='https://t.me/joinchat/TV_lOjIzLBGmSMGi'>©DraX Movies</a></b>",         
+                caption=f"😉 you got {(len_results)} Results For Your Query👉 <code>{query}</code> \n\n<b><a href='https://t.me/StarMovies_Here'>©𝗠𝗼𝘃𝗶𝗲𝘀 𝗛𝗲𝗿𝗲</a></b>",         
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
