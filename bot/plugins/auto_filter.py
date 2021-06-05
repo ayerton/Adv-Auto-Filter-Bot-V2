@@ -218,7 +218,7 @@ async def auto_filter(bot, update):
             await bot.send_photo(
                 chat_id = update.chat.id,
                 photo="https://telegra.ph/MOVIES-HERE-06-05",
-                caption=f"😉 you got {(len_results)} Results For Your Query👉 <code>{query}</code> \n\n<b><a href='https://t.me/StarMovies_Here'>©𝗠𝗼𝘃𝗶𝗲𝘀 𝗛𝗲𝗿𝗲</a></b>",         
+                caption=f"😉 you got {(len_results)} Results For Your Query👉 <code>{query}</code> \n\n<b><a href='https://t.me/StarMovies_Here'>©𝐒𝐓𝐀𝐑 𝐌★𝐕𝐈𝐄𝐒</a></b>",         
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
