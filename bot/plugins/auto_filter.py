@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         results.append(
                 [
-                    InlineKeyboardButton("⚜𝗼𝘂𝗿 𝗺𝗮𝗶𝗻 𝗴𝗿𝗼𝘂𝗽⚜", url="https://t.me/DraXmovieZ")
+                    InlineKeyboardButton("⚜𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗚𝗿𝗼𝘂𝗽⚜", url="https://t.me/DraXmovieZ")
                 ]
             )
         for filter in filters: # iterating through each files
@@ -134,7 +134,7 @@ async def auto_filter(bot, update):
     else:
         Send_message=await bot.send_photo(
         chat_id = update.chat.id,
-        photo="https://telegra.ph/DraX-Movies-05-14",
+        photo="https://telegra.ph/MOVIES-HERE-06-05",
         caption=f"𝗖𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝘁𝗵𝗶𝘀 𝗺𝗼𝘃𝗶𝗲 😢ഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടത്തി അതുപോലെ ഇവിടെ ടൈപ്പ് ചെയ്യുക....\n\n🥺Google the original name of the movie and type it here ....",               
         reply_to_message_id=update.message_id
            )
@@ -217,7 +217,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_photo(
                 chat_id = update.chat.id,
-                photo="https://telegra.ph/DraX-Movies-05-14",
+                photo="https://telegra.ph/MOVIES-HERE-06-05",
                 caption=f"😉 you got {(len_results)} Results For Your Query👉 <code>{query}</code> \n\n<b><a href='https://t.me/StarMovies_Here'>©𝗠𝗼𝘃𝗶𝗲𝘀 𝗛𝗲𝗿𝗲</a></b>",         
                 reply_markup=reply_markup,
                 parse_mode="html",
