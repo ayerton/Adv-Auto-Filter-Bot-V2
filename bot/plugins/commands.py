@@ -22,10 +22,7 @@ async def start(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text="⚠️To download the movie follow these steps.⚠️
-                      ⚜️ Click to join our channel.
-                      ⚜️ Follow 𝙎𝙩𝙖𝙧 𝙈𝙤𝙫𝙞𝙚𝙨.
-                      ⚜️ Go back to 🎥🎞𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚🎞 🎬 & ⚠️ try Again ⚠️",
+                text="⚠️To download the movie follow these steps.⚠️⚜️ Click to join our channel⚜️ Follow 𝙎𝙩𝙖𝙧 𝙈𝙤𝙫𝙞𝙚𝙨.⚜️ Go back to 🎥🎞𝙈𝙤𝙫𝙞𝙚𝙨 𝙃𝙚𝙧𝙚🎞 🎬 & ⚠️ try Again ⚠️",
                 reply_markup=InlineKeyboardMarkup([
                     [ InlineKeyboardButton(text=" ⭕️ 𝗖𝗹𝗶𝗰𝗸 𝘁𝗼𝗼 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 ⭕️ ", url=f"https://t.me/StarMovies_Here")]
               ])
